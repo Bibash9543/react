@@ -20,3 +20,14 @@ reactDom.render(
     </div>
     ,document.getElementById("root");
 )
+
+import React from "react";
+import reactDom from "react-dom";
+const customStyle = {
+  color: "Blue",
+  border: "2px solid red",
+};
+reactDom.render(
+  <h1 style={customStyle}>Hello bibash</h1>,
+  document.getElementById("root")
+);
